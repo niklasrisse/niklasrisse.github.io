@@ -9,6 +9,9 @@ venue: "📕 USENIX Security Symposium 2024 (USENIX Sec'24)"
 authors: "✍️ Niklas Risse, Marcel Böhme"
 paperurl: "http://niklasrisse.github.io/files/risse-2024-uncovering-the-limits.pdf"
 bibtexurl: "http://niklasrisse.github.io/files/risse-2024-uncovering-the-limits.bib"
+arxivurl: "https://arxiv.org/abs/2306.17193"
+codeurl: "https://github.com/niklasrisse/USENIX_2024"
+dataseturl: "https://github.com/niklasrisse/VPP"
 ---
 
 Recent results of machine learning for automatic vulnerability detection (ML4VD) have been very promising. Given only the source code of a function f, ML4VD techniques can decide if f contains a security flaw with up to 70% accuracy. However, as evident in our own experiments, the same top-performing models are unable to distinguish between functions that contain a vulnerability and functions where the vulnerability is patched. So, how can we explain this contradiction and how can we improve the way we evaluate ML4VD techniques to get a better picture of their actual capabilities?

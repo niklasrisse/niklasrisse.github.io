@@ -9,6 +9,8 @@ venue: "📕 International Conference on Artificial Neural Networks 2021 (ICANN'
 authors: "✍️ Niklas Risse, Christina Göpfert, Jan Philip Göpfert"
 paperurl: "http://niklasrisse.github.io/files/risse-2021-how-to-compare.pdf"
 bibtexurl: "http://niklasrisse.github.io/files/risse-2021-how-to-compare.bib"
+arxivurl: "https://arxiv.org/abs/2004.10882"
+codeurl: "https://github.com/niklasrisse/how-to-compare-adversarial-robustness-of-classifiers-from-a-global-perspective"
 ---
 
 Adversarial robustness of machine learning models has attracted considerable attention over recent years.
