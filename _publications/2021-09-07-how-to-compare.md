@@ -3,10 +3,10 @@ title: "How to Compare Adversarial Robustness of Classifiers From a Global Persp
 collection: publications
 category: conferences
 permalink: /publication/2021-09-07-how-to-compare
-excerpt: "An alternative for point-wise measures of adversarial robustness."
+excerpt: "💡 An alternative for point-wise measures of adversarial robustness."
 date: 2021-09-07
-venue: "International Conference on Artificial Neural Networks 2021 (ICANN'21)"
-authors: "Niklas Risse, Christina Göpfert, Jan Philip Göpfert"
+venue: "📕 International Conference on Artificial Neural Networks 2021 (ICANN'21)"
+authors: "✍️ Niklas Risse, Christina Göpfert, Jan Philip Göpfert"
 paperurl: "http://niklasrisse.github.io/files/risse-2021-how-to-compare.pdf"
 bibtexurl: "http://niklasrisse.github.io/files/risse-2021-how-to-compare.bib"
 ---

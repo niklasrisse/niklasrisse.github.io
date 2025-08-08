@@ -3,10 +3,10 @@ title: "Uncovering the Limits of Machine Learning for Automatic Vulnerability De
 collection: publications
 category: conferences
 permalink: /publication/2024-08-12-uncovering-the-limits
-excerpt: "Are machine learning models for vulnerability detection as good as they seem?"
+excerpt: "💡 Are machine learning models for vulnerability detection as good as they seem?"
 date: 2024-08-12
-venue: "USENIX Security Symposium 2024 (USENIX Sec'24)"
-authors: "Niklas Risse, Marcel Böhme"
+venue: "📕 USENIX Security Symposium 2024 (USENIX Sec'24)"
+authors: "✍️ Niklas Risse, Marcel Böhme"
 paperurl: "http://niklasrisse.github.io/files/risse-2024-uncovering-the-limits.pdf"
 bibtexurl: "http://niklasrisse.github.io/files/risse-2024-uncovering-the-limits.bib"
 ---
