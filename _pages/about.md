@@ -13,10 +13,6 @@ I am also a Co-Founder of [everlense.de](https://www.everlense.de), a photo app 
 
 Before starting my PhD, I worked as a Software Engineer for the German Startup [clockin](https://www.clockin.de), and earned a masters degree in Intelligent Systems from Bielefeld University.
 
-# News
-
 ## News
 
-<span class="news-entry">
-📰 <font color="gray">Jun 2025</font> Our Paper *"Top Score on the Wrong Exam"* won the **ACM SIGSOFT Distinguished Paper Award** 🏆 at ISSTA 2025!
-</span>
+<span style="font-size: 0.85em;">📰 <font color="gray">Jun 2025</font> Our Paper _"Top Score on the Wrong Exam"_ won the **ACM SIGSOFT Distinguished Paper Award** 🏆 at ISSTA 2025!</span>
