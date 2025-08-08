@@ -41,9 +41,15 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
+            {% if post.authors %}
+                <p style="font-size: 0.9em;">
+                <i class="fa fa-users" aria-hidden="true" style="margin-right: 5px;"></i>
+                <strong>{{ post.authors }}</strong>
+                </p>
+            {% endif %}
             <p style="font-size: 0.9em;">
                 <i class="fa fa-book" aria-hidden="true" style="margin-right: 5px;"></i>
-                <strong>{{ post.venue }}</strong>
+                <em>{{ post.venue }}</em>
             </p>
         {% endif %}
 

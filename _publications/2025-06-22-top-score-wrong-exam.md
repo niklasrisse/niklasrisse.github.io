@@ -6,6 +6,7 @@ permalink: /publication/2025-06-22-top-score-wrong-exam
 excerpt: "The most prevalent problem statement of ML4VD as function-level binary classification problem is ill-defined."
 date: 2025-06-22
 venue: "ACM SIGSOFT International Symposium on Software Testing and Analysis 2025 (ISSTA'25)"
+authors: "Niklas Risse, Jing Liu, Marcel Böhme"
 paperurl: "http://niklasrisse.github.io/files/risse-2025-top-score-wrong-exam.pdf"
 bibtexurl: "http://niklasrisse.github.io/files/risse-2025-top-score-wrong-exam.bib"
 ---
