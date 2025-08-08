@@ -44,6 +44,11 @@ layout: default
             <p style="font-size: 0.9em;">
                 <em>{{ page.venue }}</em>
             </p>
+            {% if page.award %}
+                <p style="font-size: 0.9em;">
+                <strong>{{ page.award }}</strong>
+                </p>
+            {% endif %}
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
