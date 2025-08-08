@@ -12,3 +12,7 @@ Hey, my name is Niklas. I am a PhD Candidate at the Max Planck Institute for Sec
 I am also a Co-Founder of [everlense.de](https://www.everlense.de), a photo app for wedding pictures.
 
 Before starting my PhD, I worked as a Software Engineer for the German Startup [clockin](https://www.clockin.de), and earned a masters degree in Intelligent Systems from Bielefeld University.
+
+# News
+
+📰 <font color="gray">Jun 2025</font> Our Paper "Top Score on the Wrong Exam" won the **ACM SIGSOFT Distinguished Paper Award** 🏆 at ISSTA 2025!
