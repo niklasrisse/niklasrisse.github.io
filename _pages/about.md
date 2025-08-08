@@ -7,9 +7,9 @@ redirect_from:
     - /about.html
 ---
 
-Hey, my name is Niklas. I am a PhD Candidate at the Max Planck Institute for Security and Privacy in Bochum, Germany. I am interested in Machine Learning, Software Security, and Web Development.
+Hey, my name is Niklas. I am a PhD Candidate at the [Max Planck Institute for Security and Privacy](https://www.mpi-sp.org) in Bochum, Germany. I am interested in Machine Learning, Software Security, and developing cool web applications.
 
-I am also the Co-Founder and Maintainer of [everlense](https://www.everlense.de), which is a web application for sharing wedding pictures (with lots of cool features).
+I am also the Co-Founder and Maintainer of [everlense](https://www.everlense.de), which is a web application for sharing wedding pictures (with lots of nice features).
 
 Before starting my PhD, I worked as a Software Engineer for the German Startup [clockin](https://www.clockin.de), and earned a masters degree in Intelligent Systems from Bielefeld University.
 
