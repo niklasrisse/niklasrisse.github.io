@@ -17,4 +17,6 @@ Before starting my PhD, I worked as a Software Engineer for the German Startup [
 
 ## News
 
-<span style="font-size: 0.85em;">📰 <font color="gray">Jun 2025</font> Our Paper _"Top Score on the Wrong Exam"_ won the **ACM SIGSOFT Distinguished Paper Award** 🏆 at ISSTA 2025!</span>
+<span class="news-entry">
+📰 <font color="gray">Jun 2025</font> Our Paper *"Top Score on the Wrong Exam"* won the **ACM SIGSOFT Distinguished Paper Award** 🏆 at ISSTA 2025!
+</span>
