@@ -38,12 +38,10 @@ layout: default
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.authors %}
             <p style="font-size: 0.9em;">
-            <i class="fa fa-users" aria-hidden="true" style="margin-right: 5px;"></i>
             <strong>{{ page.authors }}</strong>
             </p>
             
             <p style="font-size: 0.9em;">
-                <i class="fa fa-book" aria-hidden="true" style="margin-right: 5px;"></i>
                 <em>{{ page.venue }}</em>
             </p>
         {% elsif page.venue and page.date %}
