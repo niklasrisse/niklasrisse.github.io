@@ -31,9 +31,3 @@ redirect_from:
 
     -   clockin
     -   Münster, Germany
-
-# Publications
-
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
