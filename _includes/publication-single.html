@@ -49,6 +49,11 @@
             <p style="font-size: 0.9em;">
                 <em>{{ post.venue }}</em>
             </p>
+            {% if post.award %}
+                <p style="font-size: 0.9em;">
+                <strong>{{ post.award }}</strong>
+                </p>
+            {% endif %}
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}

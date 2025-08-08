@@ -11,6 +11,7 @@ paperurl: "http://niklasrisse.github.io/files/risse-2025-top-score-wrong-exam.pd
 bibtexurl: "http://niklasrisse.github.io/files/risse-2025-top-score-wrong-exam.bib"
 arxivurl: "https://arxiv.org/abs/2408.12986"
 codeurl: "https://github.com/niklasrisse/TopScoreWrongExam"
+award: "🏆 ACM SIGSOFT Distinguished Paper Award"
 ---
 
 According to our survey of machine learning for vulnerability detection (ML4VD), 9 in every 10 papers published in the past five years define ML4VD as a function-level binary classification problem:
