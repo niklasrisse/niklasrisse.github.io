@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Personal Website of Niklas Risse — PhD candidate at MPI-SP, working on software security and machine learning."
+        />
+        <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="images/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="images/favicon-192x192.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            href="images/apple-touch-icon-180x180.png"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Niklas Risse</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <nav class="topnav" id="topnav">
+            <div class="topnav-inner">
+                <a class="topnav-brand" href="#about">Niklas Risse</a>
+                <ul class="topnav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#cv">CV</a></li>
+                    <li><a href="#reviewing">Reviewing</a></li>
+                </ul>
+                <div class="topnav-right">
+                    <label
+                        class="theme-toggle"
+                        title="Toggle theme"
+                        aria-label="Toggle dark mode"
+                    >
+                        <input type="checkbox" id="themeToggle" />
+                        <span class="track"></span>
+                        <span class="thumb"></span>
+                    </label>
+                    <button
+                        class="hamburger"
+                        id="hamburger"
+                        aria-label="Open menu"
+                        aria-expanded="false"
+                    >
+                        <span></span><span></span><span></span>
+                    </button>
+                </div>
+            </div>
+            <ul class="mobile-menu" id="mobileMenu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#reviewing">Reviewing</a></li>
+            </ul>
+        </nav>
+
+        <div class="page">
+            <div class="layout">
+                <aside class="sidebar">
+                    <img
+                        class="portrait"
+                        src="images/profile.jpg"
+                        alt="Niklas Risse"
+                    />
+                    <div class="icons">
+                        <a href="mailto:niklasrisse@gmail.com" title="Email"
+                            ><i class="fa-solid fa-envelope"></i
+                        ></a>
+                        <a
+                            href="https://orcid.org/0000-0002-0666-5025"
+                            target="_blank"
+                            rel="noopener"
+                            title="ORCID"
+                            ><i class="fa-brands fa-orcid"></i
+                        ></a>
+                        <a
+                            href="https://scholar.google.com/citations?user=Y2AGtmYAAAAJ"
+                            target="_blank"
+                            rel="noopener"
+                            title="Google Scholar"
+                            ><i class="fa-solid fa-graduation-cap"></i
+                        ></a>
+                        <a
+                            href="https://github.com/niklasrisse"
+                            target="_blank"
+                            rel="noopener"
+                            title="GitHub"
+                            ><i class="fa-brands fa-github"></i
+                        ></a>
+                        <a
+                            href="https://www.linkedin.com/in/niklas-risse-576764174"
+                            target="_blank"
+                            rel="noopener"
+                            title="LinkedIn"
+                            ><i class="fa-brands fa-linkedin"></i
+                        ></a>
+                        <a
+                            href="https://twitter.com/niklas2484"
+                            target="_blank"
+                            rel="noopener"
+                            title="X / Twitter"
+                            ><i class="fa-brands fa-x-twitter"></i
+                        ></a>
+                    </div>
+                    <h1>Niklas Risse</h1>
+                    <p class="tagline">ML for Software Security</p>
+                </aside>
+
+                <main class="content">
+                    <!-- About -->
+                    <section class="section" id="about">
+                        <h2>About Me</h2>
+                        <p>
+                            Hi, I'm Niklas. I'm a final-year PhD candidate in
+                            the
+                            <a
+                                href="https://mpi-softsec.github.io"
+                                target="_blank"
+                                rel="noopener"
+                                >Software Security Group</a
+                            >
+                            at the
+                            <a
+                                href="https://www.mpi-sp.org"
+                                target="_blank"
+                                rel="noopener"
+                                >Max Planck Institute for Security and
+                                Privacy</a
+                            >
+                            in Bochum, Germany, supervised by
+                            Dr.&nbsp;Marcel&nbsp;Böhme. My research focuses on
+                            the
+                            <em
+                                >soundness of AI benchmarking for software
+                                security tasks</em
+                            >: Whether the experimental setups we use to
+                            evaluate machine learning methods (for vulnerability
+                            detection and beyond) actually measure what they
+                            claim to, and whether the reported success stories
+                            hold up in adversarial settings.
+                        </p>
+                        <p>
+                            Outside of research, I'm co-founder and tech lead of
+                            <a
+                                href="https://www.everlense.de"
+                                target="_blank"
+                                rel="noopener"
+                                >everlense</a
+                            >, which we founded in April 2022. everlense is a
+                            web app for sharing wedding photos and serves around
+                            20k monthly active users with over 2&nbsp;million
+                            image and video uploads each year.
+                        </p>
+                        <p>
+                            Before starting my PhD, I worked as a Software
+                            Engineer at the German startup
+                            <a
+                                href="https://www.clockin.de"
+                                target="_blank"
+                                rel="noopener"
+                                >clockin</a
+                            >
+                            (2021–2022) and earned my M.Sc. in Intelligent
+                            Systems (2021) and B.Sc. in Cognitive Computer
+                            Science (2019), both from
+                            <a
+                                href="https://www.uni-bielefeld.de"
+                                target="_blank"
+                                rel="noopener"
+                                >Bielefeld&nbsp;University</a
+                            >.
+                        </p>
+                    </section>
+                    <hr class="divider" />
+
+                    <!-- Publications -->
+                    <section class="section" id="publications">
+                        <h2>Publications</h2>
+
+                        <h3 class="pub-year">2026</h3>
+                        <div class="pub-list">
+                            <div class="pub-item">
+                                <p class="pub-authors">
+                                    Jonathan&nbsp;Evertz*, Niklas&nbsp;Risse*,
+                                    Nicolai&nbsp;Neuer, Andreas&nbsp;Müller,
+                                    Philipp&nbsp;Normann, Gaetano&nbsp;Sapia,
+                                    Srishti&nbsp;Gupta, David&nbsp;Pape,
+                                    Soumya&nbsp;Shaw, Devansh&nbsp;Srivastav,
+                                    Christian&nbsp;Wressnegger,
+                                    Erwin&nbsp;Quiring,
+                                    Thorsten&nbsp;Eisenhofer, Daniel&nbsp;Arp,
+                                    and&nbsp;Lea&nbsp;Schönherr
+                                </p>
+                                <p class="pub-title">
+                                    <a
+                                        href="files/evertz-2026-chasing-shadows.pdf"
+                                        >Chasing Shadows: Pitfalls in LLM
+                                        Security Research</a
+                                    >
+                                </p>
+                                <p class="pub-venue">
+                                    Network and Distributed System Security
+                                    Symposium (NDSS)
+                                </p>
+                                <p class="pub-links">
+                                    <a
+                                        href="files/evertz-2026-chasing-shadows.pdf"
+                                        target="_blank"
+                                        >[pdf]</a
+                                    >
+                                    <a
+                                        href="files/evertz-2026-chasing-shadows.bib"
+                                        target="_blank"
+                                        >[bib]</a
+                                    >
+                                    <a
+                                        href="https://www.arxiv.org/abs/2512.09549"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >[arxiv]</a
+                                    >
+                                    <a
+                                        href="https://github.com/Dormant-Neurons/llm-pitfalls"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >[code]</a
+                                    >
+                                </p>
+                            </div>
+                        </div>
+
+                        <h3 class="pub-year">2025</h3>
+                        <div class="pub-list">
+                            <div class="pub-item">
+                                <p class="pub-authors">
+                                    Niklas&nbsp;Risse, Jing&nbsp;Liu,
+                                    and&nbsp;Marcel&nbsp;Böhme
+                                </p>
+                                <p class="pub-title">
+                                    <a
+                                        href="files/risse-2025-top-score-wrong-exam.pdf"
+                                        >Top Score on the Wrong Exam: On
+                                        Benchmarking in Machine Learning for
+                                        Vulnerability Detection</a
+                                    >
+                                </p>
+                                <p class="pub-venue">
+                                    ACM SIGSOFT International Symposium on
+                                    Software Testing and Analysis (ISSTA)
+                                </p>
+                                <p class="pub-links">
+                                    <a
+                                        href="files/risse-2025-top-score-wrong-exam.pdf"
+                                        target="_blank"
+                                        >[pdf]</a
+                                    >
+                                    <a
+                                        href="files/risse-2025-top-score-wrong-exam.bib"
+                                        target="_blank"
+                                        >[bib]</a
+                                    >
+                                    <a
+                                        href="https://arxiv.org/abs/2408.12986"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >[arxiv]</a
+                                    >
+                                    <a
+                                        href="https://github.com/niklasrisse/TopScoreWrongExam"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >[code]</a
+                                    >
+                                </p>
+                                <p class="pub-award">
+                                    <i class="fa-solid fa-award"></i> ACM
+                                    SIGSOFT Distinguished Paper Award
+                                </p>
+                            </div>
+                        </div>
+
+                        <h3 class="pub-year">2024</h3>
+                        <div class="pub-list">
+                            <div class="pub-item">
+                                <p class="pub-authors">
+                                    Niklas&nbsp;Risse and&nbsp;Marcel&nbsp;Böhme
+                                </p>
+                                <p class="pub-title">
+                                    <a
+                                        href="files/risse-2024-uncovering-the-limits.pdf"
+                                        >Uncovering the Limits of Machine
+                                        Learning for Automatic Vulnerability
+                                        Detection</a
+                                    >
+                                </p>
+                                <p class="pub-venue">
+                                    USENIX Security Symposium
+                                </p>
+                                <p class="pub-links">
+                                    <a
+                                        href="files/risse-2024-uncovering-the-limits.pdf"
+                                        target="_blank"
+                                        >[pdf]</a
+                                    >
+                                    <a
+                                        href="files/risse-2024-uncovering-the-limits.bib"
+                                        target="_blank"
+                                        >[bib]</a
+                                    >
+                                    <a
+                                        href="https://arxiv.org/abs/2306.17193"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >[arxiv]</a
+                                    >
+                                    <a
+                                        href="https://github.com/niklasrisse/USENIX_2024"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >[code]</a
+                                    >
+                                    <a
+                                        href="https://github.com/niklasrisse/VPP"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >[dataset]</a
+                                    >
+                                </p>
+                            </div>
+                        </div>
+
+                        <h3 class="pub-year">2021</h3>
+                        <div class="pub-list">
+                            <div class="pub-item">
+                                <p class="pub-authors">
+                                    Niklas&nbsp;Risse, Christina&nbsp;Göpfert,
+                                    and&nbsp;Jan&nbsp;Philip&nbsp;Göpfert
+                                </p>
+                                <p class="pub-title">
+                                    <a
+                                        href="files/risse-2021-how-to-compare.pdf"
+                                        >How to Compare Adversarial Robustness
+                                        of Classifiers From a Global
+                                        Perspective</a
+                                    >
+                                </p>
+                                <p class="pub-venue">
+                                    International Conference on Artificial
+                                    Neural Networks (ICANN)
+                                </p>
+                                <p class="pub-links">
+                                    <a
+                                        href="files/risse-2021-how-to-compare.pdf"
+                                        target="_blank"
+                                        >[pdf]</a
+                                    >
+                                    <a
+                                        href="files/risse-2021-how-to-compare.bib"
+                                        target="_blank"
+                                        >[bib]</a
+                                    >
+                                    <a
+                                        href="https://arxiv.org/abs/2004.10882"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >[arxiv]</a
+                                    >
+                                    <a
+                                        href="https://github.com/niklasrisse/how-to-compare-adversarial-robustness-of-classifiers-from-a-global-perspective"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >[code]</a
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <hr class="divider" />
+
+                    <!-- CV -->
+                    <section class="section" id="cv">
+                        <h2>CV</h2>
+
+                        <h3 class="subhead">Research</h3>
+                        <div class="cv-row">
+                            <div class="cv-date">since 11/2022</div>
+                            <div class="cv-body">
+                                <div>
+                                    <span class="role">PhD Candidate</span>
+                                    &middot;
+                                    <a
+                                        href="https://www.mpi-sp.org"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >Max Planck Institute for Security and
+                                        Privacy</a
+                                    >, Bochum
+                                </div>
+                                <div class="meta">
+                                    Researching the soundness of AI benchmarking
+                                    for software security tasks
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cv-row">
+                            <div class="cv-date">10/2019 — 03/2021</div>
+                            <div class="cv-body">
+                                <div>
+                                    <span class="role"
+                                        >Student Research Assistant</span
+                                    >
+                                    &middot; Machine Learning Research Group,
+                                    <a
+                                        href="https://www.uni-bielefeld.de"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >Bielefeld University</a
+                                    >
+                                </div>
+                                <div class="meta">
+                                    Evaluating the adversarial robustness of
+                                    deep neural networks
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 class="subhead">Industry &amp; Side Projects</h3>
+                        <div class="cv-row cv-feature">
+                            <div class="cv-date">since 04/2022</div>
+                            <div class="cv-body">
+                                <div>
+                                    <span class="role"
+                                        >Co-Founder &amp; Tech Lead</span
+                                    >
+                                    &middot;
+                                    <a
+                                        href="https://www.everlense.de"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >everlense</a
+                                    >
+                                </div>
+                                <p class="cv-desc">
+                                    A web app for sharing wedding photos. Guests
+                                    upload from their phones, the couple keeps
+                                    everything in one place. I lead the
+                                    technical side: engineering, architecture,
+                                    and infrastructure.
+                                </p>
+                                <div class="stats">
+                                    <div class="stat">
+                                        <span class="num">20k</span
+                                        ><span class="lbl"
+                                            >monthly active users</span
+                                        >
+                                    </div>
+                                    <div class="stat">
+                                        <span class="num">2M+</span
+                                        ><span class="lbl"
+                                            >image &amp; video uploads /
+                                            year</span
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cv-row">
+                            <div class="cv-date">04/2021 — 10/2022</div>
+                            <div class="cv-body">
+                                <div>
+                                    <span class="role">Software Engineer</span>
+                                    &middot;
+                                    <a
+                                        href="https://www.clockin.de"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >clockin</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cv-row">
+                            <div class="cv-date">2019 (6 months)</div>
+                            <div class="cv-body">
+                                <div>
+                                    <span class="role">Intern</span> &middot;
+                                    Arvato Systems
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 class="subhead">Education</h3>
+                        <div class="cv-row">
+                            <div class="cv-date">2019 — 2021</div>
+                            <div class="cv-body">
+                                <div>
+                                    <span class="role"
+                                        >M.Sc. in Intelligent Systems</span
+                                    >
+                                    &middot;
+                                    <a
+                                        href="https://www.uni-bielefeld.de"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >Bielefeld University</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cv-row">
+                            <div class="cv-date">2015 — 2019</div>
+                            <div class="cv-body">
+                                <div>
+                                    <span class="role"
+                                        >B.Sc. in Cognitive Computer
+                                        Science</span
+                                    >
+                                    &middot;
+                                    <a
+                                        href="https://www.uni-bielefeld.de"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >Bielefeld University</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 class="subhead">Awards</h3>
+                        <div class="cv-row">
+                            <div class="cv-date">2025</div>
+                            <div class="cv-body">
+                                <div>
+                                    <b>ACM SIGSOFT Distinguished Paper Award</b>
+                                    &middot; ISSTA
+                                </div>
+                                <div class="meta">
+                                    <em>Top Score on the Wrong Exam</em>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cv-row">
+                            <div class="cv-date">2023</div>
+                            <div class="cv-body">
+                                <div>
+                                    <b
+                                        >2nd Place, Student Research
+                                        Competition</b
+                                    >
+                                    &middot; ESEC/FSE
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cv-row">
+                            <div class="cv-date">2018</div>
+                            <div class="cv-body">
+                                <div>
+                                    <b
+                                        >1st Place, Software Engineering Team
+                                        Competition</b
+                                    >
+                                    &middot; Arvato Systems × Bielefeld
+                                    University
+                                </div>
+                                <div class="meta">€2,000 prize money</div>
+                            </div>
+                        </div>
+                    </section>
+                    <hr class="divider" />
+
+                    <!-- Reviewing -->
+                    <section class="section" id="reviewing">
+                        <h2>Reviewing</h2>
+
+                        <h3 class="subhead">Program Committees</h3>
+                        <ul class="plain-list">
+                            <li>
+                                <b
+                                    >ACM SIGSOFT International Symposium on
+                                    Software Testing and Analysis (ISSTA)</b
+                                >, 2026
+                            </li>
+                            <li>
+                                <b
+                                    >European Conference on Machine Learning
+                                    (ECML&nbsp;PKDD)</b
+                                >, 2020
+                            </li>
+                        </ul>
+
+                        <h3 class="subhead">Reviewer</h3>
+                        <ul class="plain-list">
+                            <li>
+                                <b
+                                    >ACM Transactions on Software Engineering
+                                    and Methodology (TOSEM)</b
+                                >, 2025 — 3 papers
+                            </li>
+                            <li>
+                                <b
+                                    >IEEE/ACM International Conference on
+                                    Software Engineering (ICSE)</b
+                                >, 2024 — 1 paper
+                            </li>
+                            <li>
+                                <b
+                                    >ACM Transactions on Software Engineering
+                                    and Methodology (TOSEM)</b
+                                >, 2024 — 1 paper
+                            </li>
+                            <li>
+                                <b
+                                    >IEEE Transactions on Software Engineering
+                                    (TSE)</b
+                                >, 2023 — 1 paper
+                            </li>
+                        </ul>
+                    </section>
+                </main>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
