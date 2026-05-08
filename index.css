@@ -337,6 +337,11 @@ em {
     color: var(--muted);
     font-style: italic;
 }
+.pub-cofirst {
+    font-size: 0.75rem;
+    color: #999;
+    margin: 2px 0;
+}
 
 /* Reviewing & CV */
 .subhead {
