@@ -303,6 +303,10 @@ em {
 .pub-item {
     margin-bottom: 20px;
 }
+.pub-item + .pub-item {
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+}
 .pub-authors {
     font-size: 0.95rem;
     margin: 0 0 4px;
