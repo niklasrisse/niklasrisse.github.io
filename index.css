@@ -4,6 +4,7 @@
     --muted: #7a7370;
     --link: #5c4f4b;
     --rule: rgba(0, 0, 0, 0.12);
+    --rule-strong: rgba(0, 0, 0, 0.35);
     --highlight: rgba(0, 0, 0, 0.04);
 }
 body.dark {
@@ -12,6 +13,7 @@ body.dark {
     --muted: #8e8987;
     --link: #b5aaa7;
     --rule: rgba(255, 255, 255, 0.12);
+    --rule-strong: rgba(255, 255, 255, 0.35);
     --highlight: rgba(255, 255, 255, 0.05);
 }
 
@@ -305,7 +307,7 @@ em {
 }
 .pub-item + .pub-item {
     padding-top: 20px;
-    border-top: 1px solid var(--rule);
+    border-top: 1px solid var(--rule-strong);
 }
 .pub-authors {
     font-size: 0.95rem;
