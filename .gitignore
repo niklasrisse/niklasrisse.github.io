@@ -5,3 +5,6 @@ Gemfile.lock
 .jekyll-cache/
 .jekyll-metadata
 node_modules/
+
+# Keynote source decks — the slide viewer uses the exported JPEGs in talks/
+*.key

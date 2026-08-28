@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Slide viewer for talks by Niklas Risse, with speaker notes."
+        />
+        <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="images/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="images/favicon-192x192.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            href="images/apple-touch-icon-180x180.png"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Slides — Niklas Risse</title>
+        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="slides.css" />
+    </head>
+    <body>
+        <nav class="topnav" id="topnav">
+            <div class="topnav-inner">
+                <a class="topnav-brand" href="index.html#about"
+                    >Niklas Risse</a
+                >
+                <ul class="topnav-links">
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#publications">Publications</a></li>
+                    <li><a href="index.html#cv">CV</a></li>
+                    <li><a href="index.html#reviewing">Reviewing</a></li>
+                    <li><a href="index.html#talks">Talks</a></li>
+                </ul>
+                <div class="topnav-right">
+                    <label
+                        class="theme-toggle"
+                        title="Toggle theme"
+                        aria-label="Toggle dark mode"
+                    >
+                        <input type="checkbox" id="themeToggle" />
+                        <span class="track"></span>
+                        <span class="thumb"></span>
+                    </label>
+                    <button
+                        class="hamburger"
+                        id="hamburger"
+                        aria-label="Open menu"
+                        aria-expanded="false"
+                    >
+                        <span></span><span></span><span></span>
+                    </button>
+                </div>
+            </div>
+            <ul class="mobile-menu" id="mobileMenu">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#publications">Publications</a></li>
+                <li><a href="index.html#cv">CV</a></li>
+                <li><a href="index.html#reviewing">Reviewing</a></li>
+                <li><a href="index.html#talks">Talks</a></li>
+            </ul>
+        </nav>
+
+        <div class="viewer" id="viewer">
+            <header class="viewer-head">
+                <div class="viewer-id">
+                    <p class="viewer-event" id="talkEvent"></p>
+                    <h1 class="viewer-title" id="talkTitle"></h1>
+                    <p class="viewer-context" id="talkContext"></p>
+                </div>
+                <label class="talk-picker" id="talkPickerWrap" hidden>
+                    <span class="sr-only">Choose a talk</span>
+                    <select id="talkPicker"></select>
+                </label>
+            </header>
+
+            <div class="stage">
+                <div class="stage-main">
+                    <div class="slide-frame">
+                        <img
+                            class="slide-img"
+                            id="slideImg"
+                            alt=""
+                            draggable="false"
+                        />
+                        <button
+                            class="edge edge-prev"
+                            id="edgePrev"
+                            aria-label="Previous slide"
+                            tabindex="-1"
+                        >
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <button
+                            class="edge edge-next"
+                            id="edgeNext"
+                            aria-label="Next slide"
+                            tabindex="-1"
+                        >
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="controls">
+                        <div class="ctrl-buttons">
+                            <button
+                                class="ctrl"
+                                id="btnFirst"
+                                aria-label="First slide"
+                                title="First slide (Home)"
+                            >
+                                <i class="fa-solid fa-angles-left"></i>
+                            </button>
+                            <button
+                                class="ctrl"
+                                id="btnPrev"
+                                aria-label="Previous slide"
+                                title="Previous slide (←)"
+                            >
+                                <i class="fa-solid fa-angle-left"></i>
+                            </button>
+                            <span class="counter" id="counter" aria-live="polite"
+                                >—</span
+                            >
+                            <button
+                                class="ctrl"
+                                id="btnNext"
+                                aria-label="Next slide"
+                                title="Next slide (→)"
+                            >
+                                <i class="fa-solid fa-angle-right"></i>
+                            </button>
+                            <button
+                                class="ctrl"
+                                id="btnLast"
+                                aria-label="Last slide"
+                                title="Last slide (End)"
+                            >
+                                <i class="fa-solid fa-angles-right"></i>
+                            </button>
+                        </div>
+                        <p class="hint">
+                            Use <kbd>←</kbd> <kbd>→</kbd> to navigate,
+                            <kbd>Home</kbd> / <kbd>End</kbd> to jump.
+                        </p>
+                    </div>
+
+                    <div
+                        class="progress"
+                        role="progressbar"
+                        aria-label="Slide progress"
+                        id="progress"
+                    >
+                        <div class="progress-bar" id="progressBar"></div>
+                    </div>
+                </div>
+
+                <aside class="notes" id="notes">
+                    <h2 class="notes-head">Speaker Notes</h2>
+                    <div class="notes-body" id="notesBody"></div>
+                </aside>
+            </div>
+
+            <p class="viewer-empty" id="viewerEmpty" hidden></p>
+        </div>
+
+        <script src="index.js"></script>
+        <script src="talks/talks.js"></script>
+        <script src="slides.js"></script>
+    </body>
+</html>

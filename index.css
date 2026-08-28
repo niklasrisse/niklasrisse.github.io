@@ -470,3 +470,10 @@ em {
         scroll-padding-top: 64px;
     }
 }
+
+/* Link to the slide viewer from a talk entry */
+.plain-list .talk-slides {
+    color: var(--muted);
+    font-size: 0.92rem;
+    white-space: nowrap;
+}
