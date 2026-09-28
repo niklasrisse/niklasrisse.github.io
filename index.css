@@ -6,7 +6,6 @@
     --rule: rgba(0, 0, 0, 0.12);
     --highlight: rgba(0, 0, 0, 0.04);
     --award: #b08a2e;
-    --award-bg: rgba(176, 138, 46, 0.1);
 }
 body.dark {
     --bg: #14171c;
@@ -16,7 +15,6 @@ body.dark {
     --rule: rgba(255, 255, 255, 0.12);
     --highlight: rgba(255, 255, 255, 0.05);
     --award: #d4b062;
-    --award-bg: rgba(212, 176, 98, 0.12);
 }
 
 * {
@@ -345,13 +343,9 @@ em {
     align-items: center;
     gap: 8px;
     margin-top: 10px;
-    padding: 4px 12px;
     font-size: 0.88rem;
     font-weight: 700;
     color: var(--fg);
-    background: var(--award-bg);
-    border: 1px solid var(--award);
-    border-radius: 999px;
 }
 .pub-award i {
     color: var(--award);
